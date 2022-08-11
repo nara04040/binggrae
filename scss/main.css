@@ -475,4 +475,101 @@ button {
   padding: 20px 0;
   margin-left: auto;
   margin-right: auto;
+}
+#wrap .main-wrap .main .help {
+  position: relative;
+  display: block;
+}
+#wrap .main-wrap .main .help .counsel {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  max-width: 1310px;
+  margin: 0 auto;
+}
+#wrap .main-wrap .main .help .counsel .cyber {
+  position: relative;
+  display: block;
+  width: 48.5%;
+  height: 288px;
+  padding: 48px 42px;
+  background: #f9f9f9 url("../images/sec04_backimg03.png") no-repeat center right/cover;
+  cursor: pointer;
+  border-radius: 30px;
+}
+#wrap .main-wrap .main .help .counsel .cyber > h4 {
+  font-size: 32px;
+  line-height: 1;
+  padding-bottom: 30px;
+  font-weight: bold;
+  letter-spacing: -1.6px;
+}
+#wrap .main-wrap .main .help .counsel .cyber > p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+#wrap .main-wrap .main .help .counsel .cyber > a {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 160px;
+  height: 43px;
+  border-radius: 21px;
+  border: 1px solid rgba(224, 223, 226, 0.6);
+  bottom: 50px;
+  left: 45px;
+  box-shadow: inset 0px 5px 10px 0 rgba(121, 121, 121, 0.03);
+  background-image: linear-gradient(to top, #ed1c24, #e0462e);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 43px;
+  color: #fff;
+  cursor: pointer;
+}
+#wrap .main-wrap .main .help .counsel .safe {
+  position: relative;
+  display: block;
+  width: 48.5%;
+  height: 288px;
+  padding: 48px 42px;
+  background: #f9f9f9 url("../images/sec04_backimg02.png") no-repeat center right/cover;
+  cursor: pointer;
+  border-radius: 30px;
+}
+#wrap .main-wrap .main .help .counsel .safe h4 {
+  font-size: 32px;
+  line-height: 1;
+  padding-bottom: 30px;
+  font-weight: bold;
+  letter-spacing: -1.6px;
+}
+#wrap .main-wrap .main .help .counsel .safe .safe-phone {
+  font-size: 48px;
+  line-height: 1;
+  padding-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: -1.6px;
+}
+#wrap .main-wrap .main .help .counsel .safe span {
+  font-size: 16px;
+  line-height: 1.6;
+}
+#wrap .main-wrap .main .help .counsel .safe span:last-child {
+  margin-left: 20px;
+  color: red;
+  font-weight: 500;
+}
+#wrap .main-wrap .main .help .qna .qna_box {
+  display: flex;
+  justify-content: space-between;
+  padding: 47px 0 27px;
+  box-sizing: border-box;
+  color: #1f1f1f;
+}
+#wrap .main-wrap .main .help .qna .qna_box h4 {
+  font-size: 23px;
+  padding: 0;
+  font-weight: 700;
+  letter-spacing: -1.6px;
 }/*# sourceMappingURL=main.css.map */
